@@ -21,7 +21,7 @@ class Synergy < Formula
     # Ensure, first, that you have the appropriate installed paths for the OSX
     # SDK as per http://synergy-foss.org/wiki/Compiling#Mac_OS_X_10.4_and_above
     # or this is likely to fail..!
-    system "./hm.sh conf -g1 --mac-sdk=10.8"
+    system "./hm.sh conf -g1 --mac-sdk=10.6"
 
     system "./hm.sh build"
 
